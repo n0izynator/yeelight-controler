@@ -1,0 +1,18 @@
+﻿<Window x:Class="yeelight_controler.colorPicker"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:yeelight_controler"
+        xmlns:xctk1="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="colorPicker" Height="400" Width="250" Background="#353535">
+    <Grid>
+
+        <StackPanel Margin="10">
+            <TextBox Padding="0" Background="#353535" Foreground="LightGray" FontWeight="Bold" FontSize="25" Name="LabelName" BorderThickness="0" Text="Insert name" KeyDown="LabelName_KeyDown"/>
+            <Label Padding="0" Foreground="Gray" VerticalContentAlignment="Top" FontSize="10" x:Name="LabelIP" Content="192.168.100.10"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>
